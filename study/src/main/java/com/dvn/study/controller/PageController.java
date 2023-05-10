@@ -8,6 +8,7 @@ public class PageController {
 	
 	@RequestMapping("/")
 	public String getIndexPage() {
+		System.out.println("check");
 		return "index";
 	}
 
